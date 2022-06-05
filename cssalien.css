@@ -4,7 +4,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 */
 /* 
     Created on : 20 may 2022, 14:30:29
-    Author     : anton
+    Author     : loloberto
 */
 body {
    
@@ -13,4 +13,8 @@ body {
         display: flex;
         justify-content : center;
         align-items: center;
-    } 
+   } 
+    .inicio h3{
+        color: #01FF18;
+        font-size: 300%;
+    }
