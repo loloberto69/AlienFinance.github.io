@@ -20,6 +20,5 @@ body {
     }
     .inicio p{
         color: white;
-         background:-webkit-radial-gradient(rectangle,white);
         float:left;
 }
