@@ -18,3 +18,7 @@ body {
         color: #01FF18;
         font-size: 300%;
     }
+    .inicio a{
+        color: white;
+         background:-webkit-radial-gradient(rectangle,white0);
+}
