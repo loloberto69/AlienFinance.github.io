@@ -71,7 +71,11 @@ nav ul li:hover {
     .inicio h3{
         color: #01FF18;
         font-size: 300%;
+        float:center;
     }
+    .inicio img{
+        float:center;
+}
     .inicio a{
         color: white;
         float:right;
