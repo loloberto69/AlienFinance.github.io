@@ -14,32 +14,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 100;
-}                                                                                            ç
-    nav {
-  float: left;
-}
-
-nav ul {
-  list-style: none;
-  overflow: hidden; 
-}
-
-nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
-nav ul li a {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-}
-nav ul li:hover {
-  background: #eca023;
-}
-
-
+                                                                                           
 nav {
   float: left;
 }
@@ -63,7 +38,7 @@ nav ul li a {
 nav ul li:hover {
   background: #eca023;
 }
-
+}
  .inicio{
         display: flex;
         justify-content : center;
@@ -81,6 +56,11 @@ nav ul li:hover {
         color: white;
         float:right;
         font-size: 200%;
+}
+.isesion{
+        display: flex;
+        justify-content : center;
+        align-items: center;
 }
 .isesion li{
     float:right;
