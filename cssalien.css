@@ -16,53 +16,23 @@ header {
   z-index: 100;
                                                                                            
 nav {
-  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul {
+ul {
   list-style: none;
-  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+li {
+  margin-right: 20px;
 }
-nav ul li a {
-  display: block;
-  padding: 10px;
-  color: #fff;
+
+a {
   text-decoration: none;
-}
-nav ul li:hover {
-  background: #eca023;
-}
-}
- .inicio{
-        display: flex;
-        justify-content : center;
-        align-items: center;
-   } 
-    .inicio h3{
-        color: #01FF18;
-        font-size: 300%;
-        float:center;
-    }
-    .inicio img{
-        float:center;
-}
-    .inicio a{
-        color: white;
-        float:right;
-        font-size: 200%;
-}
-.isesion{
-        display: flex;
-        justify-content : center;
-        align-items: center;
-}
-.isesion li{
-    float:right;
-    color:#FFF;
+  color: #333;
 }
